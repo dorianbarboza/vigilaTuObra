@@ -6,7 +6,7 @@ create database project;
 
 create table vto(
 Cedula varchar(5) primary key,
-EjercicioFiscal int,
+EjercicioFiscal double,
 NombreObraPublica varchar(120),
 SectorInversion varchar(120),
 Etapa varchar(30),
