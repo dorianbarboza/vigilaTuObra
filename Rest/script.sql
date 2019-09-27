@@ -1,3 +1,9 @@
+-- Creacion de la base de datos.
+
+create database project;
+
+-- Creacion de la tabla.
+
 create table vto(
 Cedula varchar(5) primary key,
 EjercicioFiscal int,
