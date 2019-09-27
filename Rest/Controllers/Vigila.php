@@ -4,10 +4,13 @@ class Vigila {
 
   private $vigilaModel;
 
+  /*
+   * RECURSO URL: http://vigilatuobra.qroo.gob.mx/Obras/GetAll?EjercicioFiscal=2019
+   */
+
   /************************
   GET Vigila
-  URL: http://localhost:2145/vigilaTuObraRest/Rest/Controllers/Vigila.php/getAllVigila
-  URL: http://vigilatuobra.qroo.gob.mx/Obras/GetAll?EjercicioFiscal=2019
+  URL: http://localhost:2145/vigilaTuObra/Rest/Vigila/getAllVigila/
   *************************/
 
 
@@ -30,6 +33,7 @@ class Vigila {
 
   /************************
   POST Vigila
+  URL: http://localhost:2145/vigilaTuObra/Rest/Vigila/insertVigila/
   *************************/
 
   public function post($parametros){
