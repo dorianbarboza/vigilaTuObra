@@ -24,7 +24,7 @@ class VigilaModel extends DBAbstractModel{
 
     function insertVigila($array){
       if(!empty($array)){
-        $consulta = "INSERT INTO `Vigila` (`Cedula`,`EjercicioFiscal`, `NombreObraPublica`,`SectorInversion`,`Etapa`,`InstanciaEjecutora`,
+        $consulta = "INSERT INTO `vto` (`Cedula`,`EjercicioFiscal`, `NombreObraPublica`,`SectorInversion`,`Etapa`,`InstanciaEjecutora`,
                                            `FondoPrograma`,`TipoAdjudicacion`,`Municipio`,`Localidad`,`Colonia`,`Calle`,`ModalidadEjecucion`,
                                            `Contratista`,`NoContrato`,`FechaInicioContrato`,`FechaFinContrato`,`InversionContratada`,`Residente`,
                                            `Latitud`,`Longitud`,`PorcentajeAvance`,`Supervisor`)
